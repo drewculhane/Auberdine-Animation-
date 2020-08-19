@@ -1,0 +1,581 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+body {
+    height: 2000px; 
+    width: 100%;  
+    margin: 0; 
+    background: linear-gradient(to bottom, #202020, #111119); 
+    cursor: url(https://res.cloudinary.com/dgmpgmo60/image/upload/v1592883300/Screen_Shot_2020-06-22_at_11.27.10_PM_1_hyuaxb.png), auto; 
+}
+.fixedbackgroundcontainer {
+    height: 100%; 
+    width: 100%; 
+    background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593703351/Backgroundfinal_qjiw3w_2_spmxxv.png');
+    background-repeat: no-repeat; 
+    position: fixed; 
+    background-size: 100% 100%; 
+    overflow: scroll; 
+    background-position: fixed; 
+}
+.glow {
+    animation: glow3 1s infinite alternate;
+}
+.Lighthouse {
+    position: fixed; 
+    top: 32.5%; 
+    left: 33.3%; 
+    height: 2.5%; 
+    width: 1.4%; 
+}
+.Lighthouse2 {
+    position: fixed; 
+    top: 32.5%; 
+    left: 33.3%; 
+    animation: glow3 4s infinite alternate; 
+    height: 2.5%; 
+    width: 1.4%;
+}
+.lighthouserefl {
+    position: fixed; 
+    top: 60%; 
+    left: 31.7%; 
+    max-height: 6%;  
+    min-width: 3%; 
+    max-width: 7%; 
+    animation:glow3 4s infinite alternate;  
+}
+.lighthouserefl2 {
+    position: fixed; 
+    top: 62.7%; 
+    left: 32.2%; 
+    max-height: 4%; 
+    animation: glow3 4s infinite alternate; 
+}
+.spotlightacute {
+    position: fixed; 
+    top: 61%; 
+    left: 34%; 
+    max-height: 3%;
+    transform: rotate(-5deg);
+    animation: glow3 4s infinite alternate;  
+}
+.houselightsrefl {
+    position: fixed; 
+    top: 55.0%; 
+    left: 43.4%;
+    min-height: 7%; 
+    animation: glow3 3s infinite alternate; 
+}
+.lightwaves {
+    position: fixed; 
+    top: 52%;  
+    left: 22%;
+    animation: glow3 3s infinite alternate; 
+}
+.lightwaves2 {
+    position: fixed; 
+    top: 58%;  
+    left: 22%;
+    animation: glow3 5s infinite alternate; 
+}
+.lightwaves3 {
+    position: fixed; 
+    top: 61%;  
+    left: 23%;
+    animation: glow3 5s infinite alternate; 
+}
+.darkwaves {
+    position: fixed; 
+    top: 65.5%; 
+    left: 27.3%;
+    animation: glow3 4s infinite alternate; 
+}
+.birds {
+    position: fixed; 
+    top:  32%; 
+    left: 39.5%; 
+    animation: glow3 0.5s infinite alternate; 
+}
+.glowOne {
+    position: fixed; 
+    top: 73.4%; 
+    left: 30.3%;
+    height: 2.5%;   
+}
+.glowTwo {
+    position: fixed; 
+    top: 75%; 
+    left: 42.4%; 
+    height: 2.5%;   
+}
+.glowThree {
+    position: fixed; 
+    top: 66.15%; 
+    left: 5.3%; 
+    height: 2.0%;   
+}
+.glowReflThree {
+    position: fixed; 
+    top: 86.8%; 
+}
+.glowReflFour {
+    position: fixed; 
+    top: 90%; 
+    left: 5%; 
+}
+.glowReflFive {
+    position: fixed; 
+    top: 87%; 
+    left: 14.5%; 
+}
+.glowReflPier {
+    position: fixed; 
+    top: 73%; 
+    left: 23%; 
+}
+.SwashPier {
+    position: fixed; 
+    top: 73%; 
+    left: 16%; 
+}
+.glowFour {
+    position: fixed; 
+    top: 63.7%; 
+    left: 15.9%; 
+    height: 2.0%;   
+}
+.glowFive {
+    position: fixed; 
+    top: 63.5%; 
+    left: -0.4%; 
+    height: 2.0%;   
+}
+.lantern1 {
+    position: fixed; 
+    top: 23.4%; 
+    left: 70%;  
+    max-height: 11%; 
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 10s ease-in-out forwards infinite;
+    animation: swinging 10s ease-in-out forwards infinite;
+}
+.lanternglow1 {
+    position: fixed; 
+    top: 23.2%; 
+    left: 70%;  
+    max-height: 11%; 
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 10s ease-in-out forwards infinite;
+    animation: swinging 10s ease-in-out forwards infinite, glow3 3s alternate infinite;
+}
+.lantern2 {
+    position: fixed; 
+    top: 18.8%; 
+    left: 60%;   
+    max-height: 11%; 
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging2 10s ease-in-out forwards infinite;
+    animation: swinging2 10s ease-in-out forwards infinite;
+}
+.lanternglow2 {
+    position: fixed; 
+    top: 18.8%; 
+    left: 60%;
+    max-height: 11%; 
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging2 10s ease-in-out forwards infinite;
+    animation: swinging2 10s ease-in-out forwards infinite, glow3 3s alternate infinite;
+}
+.lantern3 {
+    position: fixed; 
+    top: 9%; 
+    left: 53.4%;  
+    max-height: 11%; 
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 10s ease-in-out forwards infinite;
+    animation: swinging 10s ease-in-out forwards infinite;
+}
+.lanternglow3 {
+    position: fixed; 
+    top: 9%; 
+    left: 53.4%; 
+    max-height: 11%;
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0; 
+    -webkit-animation: swinging 10s ease-in-out forwards infinite;
+    animation: swinging 10s ease-in-out forwards infinite, glow3 3s alternate infinite;
+}
+.lantern4 {
+    position: fixed; 
+    top: 6.1%; 
+    left: 40%; 
+    max-height: 11%; 
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging2 10s ease-in-out forwards infinite;
+    animation: swinging2 10s ease-in-out forwards infinite;
+}
+.lanternglow4 {
+    position: fixed; 
+    top: 6.1%; 
+    left: 40%;  
+    max-height: 11%; 
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging2 10s ease-in-out forwards infinite;
+    animation: swinging2 10s ease-in-out forwards infinite, glow3 3s alternate infinite;
+}
+.lantern5 {
+    position: fixed; 
+    top: 10.25%; 
+    left: 28%;  
+    max-height: 11%; 
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging2 10s ease-in-out forwards infinite;
+    animation: swinging2 10s ease-in-out forwards infinite;
+}
+.lanternglow5 {
+    position: fixed; 
+    top: 10.25%;  
+    left: 28%;  
+    max-height: 11%; 
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging2 10s ease-in-out forwards infinite;
+    animation: swinging2 10s ease-in-out forwards infinite, glow3 3s alternate infinite;
+}
+.lantern6 {
+    position: fixed; 
+    top: 9.7%;  
+    left: 14.5%;  
+    max-height: 11%; 
+    -webkit-animation: swinging2 10s ease-in-out forwards infinite;
+    animation: swinging2 10s ease-in-out forwards infinite;
+}
+.lanternglow6 {
+    position: fixed; 
+    top: 9.7%; 
+    left: 14.5%; 
+    max-height: 11%; 
+    -webkit-animation: swinging2 10s ease-in-out forwards infinite;
+    animation: swinging2 10s ease-in-out forwards infinite, glow3 3s alternate infinite;
+}
+.lantern7 {
+    position: fixed; 
+    top: 4%;   
+    left: 2%; 
+    max-height: 11%; 
+    -webkit-animation: swinging2 10s ease-in-out forwards infinite;
+    animation: swinging2 10s ease-in-out forwards infinite;
+}
+.lanternglow7 {
+    position: fixed; 
+    top: 4%; 
+    left: 2%; 
+    max-height: 11%; 
+    -webkit-animation: swinging2 10s ease-in-out forwards infinite;
+    animation: swinging2 10s ease-in-out forwards infinite, glow3 3s alternate infinite;
+}
+@-webkit-keyframes swinging{
+    0%{-webkit-transform: rotate(10deg);}
+    50%{-webkit-transform: rotate(-10deg)}
+    100%{-webkit-transform: rotate(10deg);}
+}
+ 
+@keyframes swinging{
+    0%{transform: rotate(10deg);}
+    50%{transform: rotate(-10deg)}
+    100%{transform: rotate(10deg);}
+}
+@-webkit-keyframes swinging2 {
+    0%{-webkit-transform: rotate(-10deg);}
+    50%{-webkit-transform: rotate(10deg)}
+    100%{-webkit-transform: rotate(-10deg);}
+}
+ 
+@keyframes swinging2 {
+    0%{transform: rotate(-10deg);}
+    50%{transform: rotate(10deg)}
+    100%{transform: rotate(-10deg);}
+}
+.glowSix {
+    position: fixed; 
+    top: 40.6%;  
+    left: 62.6%;  
+    height: 2.0%;   
+    width: 1%; 
+}
+.glowSeven {
+    position: fixed; 
+    top: 44.5%; 
+    left: 60%;  
+    height: 1.5%;
+    width: 0.6%;    
+}
+.glowEight {
+    position: fixed; 
+    top: 44.7%; 
+    left: 59.3%; 
+    height: 1.0%;
+    width: 0.7%;    
+}
+.window1 {
+    top: 44.3%; 
+    left: 58.5%; 
+    height: 0.8%; 
+}
+.window2 {
+    top: 47.5%; 
+    left: 59.6%;
+    height: 0.5%; 
+    width: 0.5%;  
+}
+.window3 {
+    top: 45.1%; 
+    left: 61.25%; 
+    height: 1.3%; 
+    width: 0.4%; 
+}
+.window4 {
+    top: 43%; 
+    left: 53%; 
+    height: 1.3%; 
+    width: 0.8%; 
+}
+.window5 {
+    top: 43%; 
+    left: 50.6%; 
+    height: 1.3%; 
+    width: 1.4%; 
+}
+.window6 {
+    top: 46.2%; 
+    left: 48.5%; 
+    height: 1.2%; 
+    width: 0.8%; 
+}
+.window7 {
+    top: 46.2%; 
+    left: 47.8%; 
+    height: 1.2%; 
+    width: 0.8%; 
+}
+.window8 {
+    top: 48.2%; 
+    left: 50.1%; 
+    height: 0.8%; 
+    width: 0.8%; 
+}
+.window9 {
+    top: 49.2%; 
+    left: 57.1%; 
+    height: 0.8%; 
+    width: 0.5%; 
+}
+.window10 {
+    top: 49.2%; 
+    left: 54%; 
+    height: 0.8%; 
+    width: 0.5%; 
+}
+.window12 {
+    top: 51.3%; 
+    left: 50.3%; 
+    height: 0.8%; 
+    width: 0.5%; 
+}
+
+
+
+.glowNine {
+    position: fixed; 
+    top: 43.4%; 
+    left: 55.9%; 
+    height: 1.3%;
+    width: 0.9%;    
+}
+.glowTen {
+    position: fixed; 
+    top: 40.9%; 
+    left: 63.9%; 
+    height: 1.3%;
+    width: 0.9%;    
+}
+
+
+
+
+
+
+
+
+
+.IntroContainer {
+    top: 4%; 
+    left: 5%; 
+    background-color: #C4AFE1; 
+    position: fixed; 
+    min-width: 400px; 
+    max-width: 500px; 
+    min-height: 20vh; 
+    border-radius: 10px; 
+    opacity: 0.65; 
+    border: 3px solid #202243; 
+    display: flex; 
+    flex-direction: row; 
+    display: none; 
+}
+.cloud {
+    max-width: 100%; 
+    max-height: 60px; 
+    opacity: 1.2; 
+    margin-top: 2%; 
+    margin-right: 5%; 
+}
+.IntroContainer p { 
+font-size: 30px; 
+font-family: 'MedievalSharp';
+margin-left: 5%; 
+margin-top: 5%; 
+}
+.navContainer {
+    position: fixed; 
+    top: 30%; 
+    left: 5%;  
+    height: 22vh; 
+    width: 240px; 
+    background-color: #C4AFE1; 
+    opacity: 0.8; 
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    margin-bottom: 0%; 
+    margin-right: 0%; 
+    border-radius: 20px; 
+    border: 3px solid #202243; 
+    display: none; 
+}
+nav {
+    grid-area: 1/1/2/2;
+    height: 200px; 
+    min-width: 185px; 
+    margin-top: 3%; 
+}
+.nv1 {
+    margin: 5%; 
+    height: 20%;  
+    display: flex; 
+    justify-content: center; 
+}
+.nv1 img {
+    max-height: 100%; 
+    max-width: 100%; 
+
+}
+.nvcnt {
+    height: 100%; 
+    width: 90%; 
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center; 
+    padding-left: 5%; 
+}
+.nvcnt h2 {
+    color:  #563C23;
+    cursor: pointer; 
+    font-family: 'MedievalSharp';
+    text-shadow: 5px 5px 10px #C3B9FF; 
+}
+.wspa {
+    animation: 3s infinite alternate;
+    animation-name: glow2; 
+    animation-delay: 0s; 
+}
+.wspb {
+    animation: 3s infinite alternate;
+    animation-name: glow3; 
+    animation-delay: 0.5s; 
+}
+.wspc {
+    animation: 3s infinite alternate;
+    animation-name: glow3; 
+    animation-delay: 0s; 
+}
+
+@keyframes glow {
+        0%{ opacity: 0.2;}
+        5%{ opacity: 0.2;}
+        10%{ opacity: 0.3;}
+        15%{ opacity: 0.3;}
+        20%{ opacity: 0.4;}
+        25%{ opacity: 0.5;}
+        30%{ opacity: 0.6;}
+        35%{ opacity: 0.7;}
+        40%{ opacity: 0.8;}
+        45%{ opacity: 0.9;}
+        50%{ opacity: 1.0;}
+        55%{ opacity: 0.9;}
+        60%{ opacity: 0.8;}
+        65%{ opacity: 0.7;}
+        70%{ opacity: 0.6;}
+        75%{ opacity: 0.5;}
+        80%{ opacity: 0.4;}
+        85%{ opacity: 0.3;}
+        90%{ opacity: 0.3;}
+        95%{ opacity: 0.2;}
+        100%{ opacity: 0.2;}
+    }
+    
+@keyframes glow2 {
+        0%{ opacity: 0.2;}
+        5%{ opacity: 0.2;}
+        10%{ opacity: 0.3;}
+        15%{ opacity: 0.3;}
+        20%{ opacity: 0.4;}
+        25%{ opacity: 0.5;}
+        30%{ opacity: 0.6;}
+        35%{ opacity: 0.7;}
+        40%{ opacity: 0.8;}
+        45%{ opacity: 0.9;}
+        50%{ opacity: 1.0;}
+        55%{ opacity: 0.9;}
+        60%{ opacity: 0.8;}
+        65%{ opacity: 0.7;}
+        70%{ opacity: 0.6;}
+        75%{ opacity: 0.5;}
+        80%{ opacity: 0.4;}
+        85%{ opacity: 0.3;}
+        90%{ opacity: 0.3;}
+        95%{ opacity: 0.2;}
+        100%{ opacity: 0.2;}
+    }
+
+@keyframes glow3 {
+        0%{ opacity: 0.2;}
+        5%{ opacity: 0.2;}
+        10%{ opacity: 0.3;}
+        15%{ opacity: 0.3;}
+        20%{ opacity: 0.4;}
+        25%{ opacity: 0.5;}
+        30%{ opacity: 0.6;}
+        35%{ opacity: 0.7;}
+        40%{ opacity: 0.8;}
+        45%{ opacity: 0.9;}
+        50%{ opacity: 1.0;}
+        55%{ opacity: 0.9;}
+        60%{ opacity: 0.8;}
+        65%{ opacity: 0.7;}
+        70%{ opacity: 0.6;}
+        75%{ opacity: 0.5;}
+        80%{ opacity: 0.4;}
+        85%{ opacity: 0.3;}
+        90%{ opacity: 0.3;}
+        95%{ opacity: 0.2;}
+        100%{ opacity: 0.2;}
+    }
+    
